@@ -1,11 +1,58 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container {
-    width: 100%;
-    border: 5px solid red;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.container .img {
+    text-indent: -9999px;
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+}
+.container .img1 {
+    background-image: url(img/img1.jpg);
+}
+.container .img2 {
+    background-image: url(img/img2.jpg);
+}
+.container .img3 {
+    background-image: url(img/img3.jpg);
+}
+.container .img4 {
+    background-image: url(img/img4.jpg);
+}
+.container .img5 {
+    background-image: url(img/img5.jpg);
+}
+.container .img6 {
+    background-image: url(img/img6.jpg);
+}
+.container .img7 {
+    background-image: url(img/img7.jpg);
+}
+.container .img8 {
+    background-image: url(img/img8.jpg);
+}
+.container .img9 {
+    background-image: url(img/img9.jpg);
+}
+.container .img10 {
+    background-image: url(img/img10.jpg);
+}
+.container .img11 {
+    background-image: url(img/img11.jpg);
+}
+.container .img12 {
+    background-image: url(img/img12.jpg);
+}
+.container .img13 {
+    background-image: url(img/img13.jpg);
+}
+.container .img14 {
+    background-image: url(img/img14.jpg);
 }
