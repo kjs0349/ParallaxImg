@@ -13,6 +13,14 @@
     height: 50vh;
     background-position: center center;
     background-size: cover;
+    opacity: 0;
+    transition: all .5s linear;
+}
+.container .img:nth-child(odd) {
+    transform: translate(-50%, 0);
+}
+.container .img:nth-child(even) {
+    transform: translate(50%, 0);
 }
 .container .img1 {
     background-image: url(img/img1.jpg);
@@ -55,4 +63,12 @@
 }
 .container .img14 {
     background-image: url(img/img14.jpg);
+}
+.container .show:nth-child(odd) {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+.container .show:nth-child(even) {
+    opacity: 1;
+    transform: translate(0, 0);
 }
